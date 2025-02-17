@@ -1,4 +1,6 @@
 # Ignorar archivos innecesarios
+build/*
+!build/web
 .git
 .github
 node_modules
