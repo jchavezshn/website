@@ -1,0 +1,12 @@
+# Ignorar archivos innecesarios
+.git
+.github
+node_modules
+test
+android
+ios
+build
+**/*.md
+**/*.iml
+**/*.log
+key.json
