@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY build/web /usr/share/nginx/html
+COPY build/web /etc/nginx/html
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
